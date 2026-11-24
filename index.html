@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>来自新世界 · 新世界より | 贵志祐介</title>
+<meta name="description" content="贵志祐介《来自新世界》读书专题：一千年后的日本，人类以咒力重建了田园，也重建了恐惧。">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">
+      <b>新世界より</b>
+      <span>Reading Notes</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="on">首页</a>
+      <a href="world.html">世界观</a>
+      <a href="characters.html">人物</a>
+      <a href="story.html">故事</a>
+      <a href="themes.html">主题</a>
+      <a href="about.html">关于</a>
+    </div>
+    <button class="nav-toggle" aria-label="菜单"><i></i><i></i><i></i></button>
+  </div>
+</nav>
+
+<!-- ============ 首屏 ============ -->
+<header class="hero">
+  <div class="hero-media" data-parallax></div>
+  <div class="hero-veil"></div>
+  <canvas id="dust" style="position:absolute;inset:0;width:100%;height:100%;z-index:2;pointer-events:none"></canvas>
+
+  <div class="hero-grid">
+    <div>
+      <div class="hero-kicker">Kishi Yusuke · 2008</div>
+      <h1 class="hero-title">
+        来自新世界
+        <span class="sub">新世界より</span>
+      </h1>
+      <p class="hero-en">From the New World — a novel of a thousand years after</p>
+      <p class="hero-desc">
+        一千年后的日本，人类用名为「咒力」的力量，重建了稻田、水车与神社。
+        村子干净、安静、秩序井然——干净到没有一个多余的孩子。
+      </p>
+      <div class="hero-cta">
+        <a class="btn primary" href="world.html">进入这个世界 <i>→</i></a>
+        <a class="btn" href="story.html">先看故事梗概</a>
+      </div>
+    </div>
+
+    <figure class="hero-poster">
+      <img src="img/anime-cover.png" alt="动画《来自新世界》主视觉：黄昏草原上的渡边早季，远处是业魔与化鼠">
+    </figure>
+  </div>
+
+  <div class="scroll-hint"><span></span>Scroll</div>
+</header>
+
+<!-- ============ 两种封面 ============ -->
+<section class="sec covers">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-num">Ⅰ</div>
+      <h2 class="sec-title">同一本书，两种封面<em>Covers</em></h2>
+      <div class="rule"></div>
+    </div>
+
+    <div class="cover-grid">
+      <figure class="book reveal d1">
+        <div class="book-inner"><img src="img/cn-cover.jpg" alt="《来自新世界》简体中文版封面，上海译文出版社"></div>
+        <figcaption>
+          <span class="tag">简体中文版</span>
+          <b>来自新世界（上下）</b>
+          上海译文出版社 · 2014<br>
+          译者 丁丁虫 · 精装 1076 页
+        </figcaption>
+      </figure>
+
+      <figure class="book reveal d2">
+        <div class="book-inner"><img src="img/jp-cover.jpg" alt="《新世界より》日文原版封面，讲谈社"></div>
+        <figcaption>
+          <span class="tag">日文原版</span>
+          <b>新世界より（上）</b>
+          讲谈社 · 2008 年 1 月<br>
+          金色草原上压着墨色书名
+        </figcaption>
+      </figure>
+
+      <figure class="book reveal d3">
+        <div class="book-inner"><img src="img/tw-cover.jpg" alt="《来自新世界》繁体中文版上下册立体书影，独步文化"></div>
+        <figcaption>
+          <span class="tag">繁体中文版</span>
+          <b>來自新世界（上·下）</b>
+          独步文化 · 台湾<br>
+          星空与荒原，上下两卷对照
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 简介 ============ -->
+<section class="sec">
+  <div class="wrap">
+    <div class="intro-grid">
+      <div class="reveal">
+        <div class="sec-num" style="margin-bottom:22px">Ⅱ · 这本书讲什么</div>
+        <div class="lead">
+          <p>
+            故事从「我」写给一千年后某个人的信开始。写信的人叫<span class="mark">渡边早季</span>，
+            二十六岁，是神栖六十六町的一名普通居民。她回忆的，是十四年前那个夏天之后，
+            五个孩子怎样一个接一个地从这座村庄里消失。
+          </p>
+          <p>
+            公元两千多年，人类中的一部分觉醒了<span class="mark">咒力</span>——用意念移动物体、点燃空气、
+            改写生物的形态。文明在血里崩塌又重建，最终形成了一种奇特的平衡：没有机器，没有城市，
+            没有远方的战争，人们穿着和服住在上千人的小町里，用咒力耕田、造桥、点火，
+            过着看起来像江户时代的农业生活。
+          </p>
+          <p>
+            代价是：他们必须保证<strong>再也没有人用咒力杀人</strong>。于是这个社会发明了
+            攻击抑制、愧死机构、八丁标、完人学校，和一套温柔到几乎看不见的淘汰机制。
+            在这样一座「完美」的村庄里长大，早季和她的四个同学，慢慢发现了一件事——
+            <strong>不听话的孩子，是不会长大的。</strong>
+          </p>
+        </div>
+      </div>
+
+      <aside class="reveal d2">
+        <dl class="fact-list">
+          <div><dt>书名</dt><dd>新世界より<small>From the New World</small></dd></div>
+          <div><dt>作者</dt><dd>贵志祐介<small>Kishi Yusuke · 1959—</small></dd></div>
+          <div><dt>初版</dt><dd>2008 年 1 月<small>讲谈社 · 上下两卷</small></dd></div>
+          <div><dt>中译</dt><dd>2014 年<small>上海译文出版社 / 丁丁虫</small></dd></div>
+          <div><dt>篇章</dt><dd>六章<small>新芽的季节 → 黑暗中燃烧的篝火</small></dd></div>
+          <div><dt>奖项</dt><dd>第 29 回日本 SF 大赏<small>2008 年度</small></dd></div>
+          <div><dt>改编</dt><dd>TV 动画 · 漫画<small>2012 年 / A-1 Pictures</small></dd></div>
+          <div><dt>豆瓣评分</dt><dd>9.0<small>逾 1.8 万人评价</small></dd></div>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 分页面导航 ============ -->
+<section class="sec tight" style="background:var(--ink-2); border-top:1px solid var(--line); border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-num">Ⅲ</div>
+      <h2 class="sec-title">往下读<em>Contents</em></h2>
+      <div class="rule"></div>
+    </div>
+
+    <div class="nav-cards">
+      <a class="card reveal d1" href="world.html">
+        <div>
+          <div class="card-num">01 / WORLD</div>
+          <h3>世界观</h3>
+          <p>咒力、八丁标、神栖六十六町、化鼠与恶鬼——一个用恐惧维持的乌托邦，零件是怎么装起来的。</p>
+        </div>
+        <div class="go">查看设定</div>
+      </a>
+
+      <a class="card reveal d2" href="characters.html">
+        <div>
+          <div class="card-num">02 / PEOPLE</div>
+          <h3>主要人物</h3>
+          <p>早季、觉、真理亚、守、瞬，还有化鼠的领袖斯奎拉。五个孩子和一个不肯认命的族群。</p>
+        </div>
+        <div class="go">认识他们</div>
+      </a>
+
+      <a class="card reveal d3" href="story.html">
+        <div>
+          <div class="card-num">03 / STORY</div>
+          <h3>故事线</h3>
+          <p>从十二岁的夏天到二十六岁的决断，六章时间轴，只写到不剧透结局为止。</p>
+        </div>
+        <div class="go">读大纲</div>
+      </a>
+
+      <a class="card reveal d1" href="themes.html">
+        <div>
+          <div class="card-num">04 / THEMES</div>
+          <h3>主题解读</h3>
+          <p>教育为什么等于筛选？「愧死机构」究竟在保护谁？这本书真正想说的恶意是什么。</p>
+        </div>
+        <div class="go">进入解读</div>
+      </a>
+
+      <a class="card reveal d2" href="about.html">
+        <div>
+          <div class="card-num">05 / ABOUT</div>
+          <h3>作者与版本</h3>
+          <p>贵志祐介其人、出版信息、获奖记录，以及第一次读这本书的建议。</p>
+        </div>
+        <div class="go">了解作者</div>
+      </a>
+
+      <a class="card reveal d3" href="world.html#curse">
+        <div>
+          <div class="card-num">06 / GLOSSARY</div>
+          <h3>名词速查</h3>
+          <p>咒力、业魔、恶鬼、愧死机构……书里那些看不懂的设定，一页说清。</p>
+        </div>
+        <div class="go">查名词</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 金句 ============ -->
+<section class="quote">
+  <div class="bg" data-parallax></div>
+  <div class="veil"></div>
+  <blockquote class="reveal">
+    <q>想象力，能改变一切。</q>
+    <cite>—— 全书最后一行</cite>
+  </blockquote>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>About this site</h4>
+        <p>一个学生做的读书专题页，不是官方站点。文字为读后整理与个人理解，书影图片版权归原出版社所有，仅作学习交流使用。</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="world.html">世界观</a></li>
+          <li><a href="characters.html">主要人物</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>More</h4>
+        <ul>
+          <li><a href="story.html">故事线</a></li>
+          <li><a href="themes.html">主题解读</a></li>
+          <li><a href="about.html">作者与版本</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bot">
+      <span>《来自新世界》读书笔记 · 新世界より</span>
+      <span>© <span id="year">2026</span> · 学习用途</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
